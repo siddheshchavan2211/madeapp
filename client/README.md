@@ -1,3 +1,25 @@
+# User Stories
+1. A user can join the chat by entering his name
+2. A user can send a text message
+3. A user can send an image as a file
+4. User will see all the messages that are sent by other users
+5. User will see a message whenever a new user joins
+6. Chat will auto-scroll on new messages 
+7. A profile avatar will be shown for messages sent by others based on name initials
+# Use Cases
+1. Allows anonymized chat with others
+2. Doesn't require to auth or signup
+3. Doesn't store messages or new users in any way, making it privacy focused
+4. Users can still send images even though we don't implement any image/file hosting solution
+5. Is very scalable, as our server is only transmitting the messages that are sent by the client, mainly acting as a rely b/w all the connected clients
+6. With Bun, it makes our express API 5x faster
+7. With Docker, it allows us to deploy to almost any VM
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
